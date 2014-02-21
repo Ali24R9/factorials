@@ -1,8 +1,14 @@
-describe('factorial', function() {
+describe('factorialNum', function() {
   it('multiplies a number by all of the positive integers less than that number', function(){
-    factorial("3").should.equal("6");
+    factorialNum(5).should.equal(120);
+  });
+
+  it('defines 0! as equal to 1', function(){
+  factorialNum(0).should.equal(1);
   });
 });
+
+
 
 // describe('function name', function() {
 //   it('what you want the function to do', function() {
